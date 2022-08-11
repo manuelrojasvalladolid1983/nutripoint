@@ -108,6 +108,7 @@ main .imagenesUbicacion{
     align-items: center;
 }
 
+
 main .imagenes{
     height: 200px;
     background-color:white;
@@ -119,7 +120,16 @@ main .imagenes{
     align-items: center;
 }
 
+.main-category{
+    height: 800px;
+}
 
+.main-promocion{
+    height: 800px;
+}
+.main-ubicanos{
+    height: 800px;
+}
 /* mediaqueries*/
 
 @media screen and (min-width:600px){
