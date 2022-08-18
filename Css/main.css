@@ -160,3 +160,36 @@ main{
  
     }
 }
+
+
+.img {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 230px;
+}
+
+main .imagenes{
+    height: 500px;
+    background-color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.pie {
+    text-align: center;
+	font-size: 1rem;
+}
+a:link{
+
+    color:blanchedalmond;
+
+}
+
+a:hover{
+     color: aqua;
+}
