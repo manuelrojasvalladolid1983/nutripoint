@@ -1,0 +1,13 @@
+@import "utilities/variables";
+
+.header{
+    background-color: $fondo_titulo;
+    .col{
+        color: $color-titulo;
+    }
+}
+.main-ubicanos{
+    h4{
+        color: $color-parrafo;
+    }
+}
