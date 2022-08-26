@@ -1,0 +1,32 @@
+@import "base/variables";
+@import "base/listas";
+@import "base/mixin";
+@import "base/extend";
+section{
+    @include box-encabezado;
+    header{
+        background-color: $fondo-titulo;
+        h1{
+            color: nth($colores , 2 );
+        }
+        p{
+            color: $color-parrafo;
+        }
+    }
+}
+main{
+
+     h4 {
+        color:nth($colores, 1 );
+     }
+     p{
+         color: $color-parrafo;
+     }
+
+     @include box-model;
+     @include main-index;
+     @extend %flex;
+}
+footer{
+    @include pie;
+}

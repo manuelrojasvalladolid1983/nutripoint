@@ -1,0 +1,62 @@
+
+@mixin box-model {
+    height: 800px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin box-encabezado {
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin box-body {
+    background-color:white ;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+@mixin pie {
+    text-align: center;
+	font-size: 15px;
+}
+
+@mixin main-index{
+    height: 800px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr ;
+
+    grid-template-areas: 
+                        "main-p main-p"
+                        "imagen-agregar imagen-carrito"
+                        "imagen-registrar imagen-comprar";
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    .img-nosotros{
+        display: none;
+    }
+    
+    .main-p{
+        grid-area: main-p;
+        text-align:justify;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    
+    .imagen-agregar{
+        grid-area: imagen-agregar;
+    }
+    
+    .imagen-carrito{
+        grid-area: imagen-carrito;
+    }
+    
+    .imagen-registrar{
+        grid-area: imagen-registrar;
+    }
+    
+    .imagen-comprar{
+        grid-area: imagen-comprar;
+    }
+}

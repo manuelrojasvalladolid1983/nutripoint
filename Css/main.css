@@ -1,195 +1,54 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+section {
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  section header {
+    background-color: white; }
+    section header h1 {
+      color: blue; }
+    section header p {
+      color: black; }
 
-/* estilos generales */
-
-body{
-    background-color:white ;
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
-}
-
-/* estilos de header */
-
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-header h1{
-    font-size: 1rem;
-    margin-bottom: 1rem;
-}
-
-header nav ul {
-    display: flex;
-    column-gap: 10px;
-    
-}
-
-header nav ul li{
-    list-style: none;
-    background-color: whitesmoke;
-    padding: 5px;
-    border-radius: 20px;
-    font-weight: bold;
-}
-
-header nav ul li:hover{
-    background-color: rgb(231, 229, 238);
-    box-shadow: 1px 1px 10px rgb(42, 9, 134);
-}
-
-/* estilos de main*/
-
-main{
-    height: 80vh;
-    display: grid;
-    grid-template-columns: auto auto ;
-    grid-template-rows: 1.5fr 1fr 1fr 0.5fr ;
-
-    grid-template-areas: 
-                        "main-p main-p"
-                        "imagen-agregar imagen-carrito"
-                        "imagen-registrar imagen-comprar";
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-}
-
-.img-nosotros{
-    display: none;
-}
-
-.main-p{
+main {
+  height: 800px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 800px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1.5fr 1fr 1fr 1fr;
+  grid-template-areas: "main-p main-p" "imagen-agregar imagen-carrito" "imagen-registrar imagen-comprar";
+  justify-content: center;
+  justify-items: center;
+  align-items: center; }
+  main h4 {
+    color: red; }
+  main p {
+    color: black; }
+  main .img-nosotros {
+    display: none; }
+  main .main-p {
     grid-area: main-p;
-    text-align:justify;
-    font-size: 0.5rem;
-    line-height: 2rem;
-}
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 2rem; }
+  main .imagen-agregar {
+    grid-area: imagen-agregar; }
+  main .imagen-carrito {
+    grid-area: imagen-carrito; }
+  main .imagen-registrar {
+    grid-area: imagen-registrar; }
+  main .imagen-comprar {
+    grid-area: imagen-comprar; }
 
-.imagen-agregar{
-    grid-area: imagen-agregar;
-}
-
-.imagen-carrito{
-    grid-area: imagen-carrito;
-}
-
-.imagen-registrar{
-    grid-area: imagen-registrar;
-}
-
-.imagen-comprar{
-    grid-area: imagen-comprar;
-}
-
-
-
-.slide {
-    margin-top: 10px
-}
-.slide img {
-  height: 65px;
-}
-.main-category{
-    height: 800px;
-}
-
-.main-promocion{
-    height: 800px;
-}
-.main-ubicanos{
-    height: 800px;
-}
-/* mediaqueries*/
-
-@media screen and (min-width:600px){
-    header h1{
-        font-size: 3rem;
-    }
-
-    header nav ul li{
-        font-size: 1.5rem;
-    }
-
-    main{
-        grid-template-columns: auto auto auto auto;
-        grid-template-areas: 
-                            "main-p main-p main-p main-p"
-                            "img-nosotros img-nosotros img-nosotros img-nosotros"
-                            "imagen-agregar imagen-carrito imagen-registrar imagen-comprar";
-        column-gap: 1rem;
-    }
-
-    .img-nosotros{
-        grid-area: img-nosotros;
-        display: block;
-    }
-
-    .main-p{
-        font-size: 1.5rem;
-    }
-}
-
-@media screen and (min-width:1024px){
-    
-   header{
-       flex-direction: row;
-       justify-content: space-around;
-   }
-
-   main{
-    grid-template-columns: repeat(4, 0.2fr);
-    grid-template-areas: 
-                        "main-p main-p img-nosotros img-nosotros"
-                        "imagen-agregar imagen-carrito imagen-registrar imagen-comprar";
-
-}
-}
-
-@media (max-width: 412px) and (min-width:280px){
-
-    .container{
-     flex-direction: column;
-     align-items: center;
- 
-    }
-}
-
-
-.img {
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    height: 230px;
-}
-
-main .imagenes{
-    height: 500px;
-    background-color:white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr ;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-}
-
-.pie {
-    text-align: center;
-	font-size: 1rem;
-}
-a:link{
-
-    color:blanchedalmond;
-
-}
-
-a:hover{
-     color: aqua;
-}
+footer {
+  text-align: center;
+  font-size: 15px; }
