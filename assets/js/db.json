@@ -1,0 +1,77 @@
+{
+    "productos": [
+    {
+        "id": 1,
+        "nombre": "Proteína Gold Standard Whey de 10lb + Shaker",
+        "descripcion": "Sabor chocolate o vainilla + S/19.90 llévate un Shaker Perú ó Shaker Dúal",
+        "precio": 718,
+        "stock": 30,
+        "img": "CategoriaProteinaGold.png",
+        "oferta": 0
+    },
+    {
+        "id": 2,
+        "nombre": "Proteína aislada ISO 100 5lb - Dymatize",
+        "descripcion": "Sabor Gourmet Chocolate.Proteína de suero de leche 100% hidrolizado.",
+        "precio": 539,
+        "stock": 40,
+        "img": "CategoriaProteinaElite.png",
+        "oferta": 1
+    },
+
+    {
+        "id": 3,
+        "nombre": "Proteína aislada ISO COOL 2lb - Ultimate",
+        "descripcion": "Sabor Chocolate.Proteína aislado de suero de leche.",
+        "precio": 219,
+        "stock": 20,
+        "img": "CategoriaProteinaIso.png",
+        "oferta": 0
+    },
+    {
+        "id": 4,
+        "nombre": "Proteína Matrix 5lb - Syntrax",
+        "descripcion": "Sabor Vainilla.Proteína a base de suero de leche",
+        "precio": 279,
+        "stock": 45,
+        "img": "categoriaProteinaShake.png",
+        "oferta": 1
+    },
+    {
+        "id": 5,
+        "nombre": "Proteína Matrix 2lb - Syntrax",
+        "descripcion": "Sabor Simply Vainilla.Proteìna a base de suero.",
+        "precio": 139,
+        "stock": 25,
+        "img": "categoriaProteinaMatrix.png",
+        "oferta": 1
+    },
+    {
+        "id": 6,
+        "nombre": "Proteína Iso Fit de 5lb - Nutrex",
+        "descripcion": "Sabor Galleta.Proteína a base de suero de leche",
+        "precio": 400,
+        "stock": 15,
+        "img": "categoriaProteinaIsofit.png",
+        "oferta": 0
+    },
+    {
+        "id": 7,
+        "nombre": "Energy 585g - Optimum Nutrition",
+        "descripcion": " Te da enfoque, concentración para el entrenamiento y actividades diarias",
+        "precio": 280,
+        "stock": 15,
+        "img": "categoriaAminoOn.png",
+        "oferta": 1
+    },
+    {
+        "id": 8,
+        "nombre": "BCAA de 228g - Ultimate Nutrition",
+        "descripcion": "Combustible de recuperación confiable para los atletas",
+        "precio": 160,
+        "stock": 8,
+        "img": "categoriaAminoUltimate.png",
+        "oferta": 1
+    }
+]
+}
